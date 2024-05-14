@@ -189,5 +189,51 @@
 
 // console.log(sumWithInitial);
 // Expected output: 10
-//some()
+//some() ავხსენი word-ში
+//sort()
+// const months = ['March', 'Jan', 'Feb', 'Dec'];
+// months.sort();
+// console.log(months);
+// // Expected output: Array ["Dec", "Feb", "Jan", "March"]
 
+// const array1 = [1, 30, 4, 21, 100000];
+// array1.sort();
+// console.log(array1);
+// // Expected output: Array [1, 100000, 21, 30, 4]
+//map()
+// const array1 = [1, 4, 9, 16];
+
+// // Pass a function to map
+// const map1 = array1.map((x) => x * 2);
+
+// console.log(map1);
+// // Expected output: Array [2, 8, 18, 32]
+//ლუწირიცხვების გამრავლება 
+// const array1 = [1, 4, 9, 16];
+
+// // Pass a function to map
+// const map1 = array1.map((x) => x % 2 ==0 ? x  * 2 :x );
+// // tu iyofa 2ze unaashtod, gaamravle 2ze,tuarada datove xado
+// console.log(map1);
+// // Expected output: Array [2, 8, 18, 32]
+//for each()
+// const array1 = [1, 4, 9, 16];
+
+// // Pass a function to map
+// const map1 = array1.forEach((x) => x * 2);
+
+// console.log(map1);
+// // Expected output: Array [2, 8, 18, 32]
+//ჯამის დათვლა for eachით
+// const array1 = [1, 4, 9, 16];
+
+// // Pass a function to map
+// let sum = 0
+// const map1 = array1.forEach((x) => sum = sum + x);
+
+// console.log(sum);
+// // Expected output: Array [2, 8, 18, 32]
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+// let sumArr = [...arr1,...arr2]
+// console.log(sumArr)//shevaerte arrayebi.es sxva temaa
